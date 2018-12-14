@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24610fbd-347d-4e05-ab21-d039069cc51a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/PRU03E04TempsTest_nom_llinatge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tiempo/PRU03E04Temps_Ivan_Cabellos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tiempo/PRU03E04Temps_Ivan_Cabellos.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PRU03E04Temps_Ivan_Cabellos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PRU03E04Temps_Ivan_Cabellos.java" afterDir="false" />
@@ -23,36 +24,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
-          <entry key="java" value="1588" />
-          <entry key="txt" value="126" />
+          <entry key="java" value="2024" />
+          <entry key="txt" value="167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1588" />
-          <entry key="PLAIN_TEXT" value="150" />
+          <entry key="JAVA" value="2024" />
+          <entry key="PLAIN_TEXT" value="191" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PRU03E04Temps_Ivan_Cabellos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="106" column="54" selection-start-line="106" selection-start-column="54" selection-end-line="106" selection-end-column="54" />
+            <state relative-caret-position="229">
+              <caret line="92" column="14" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
               <folding>
                 <element signature="e#417#418#0" expanded="true" />
                 <element signature="e#444#445#0" expanded="true" />
@@ -63,6 +64,15 @@
                 <element signature="e#890#891#0" expanded="true" />
                 <element signature="e#921#922#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PRU03E04TempsTest_nom_llinatge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -84,6 +94,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/Tiempo.java" />
         <option value="$PROJECT_DIR$/src/PRU03E04Temps_Ivan_Cabellos.java" />
+        <option value="$PROJECT_DIR$/src/PRU03E04TempsTest_nom_llinatge.java" />
       </list>
     </option>
   </component>
@@ -120,7 +131,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544802328916" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544803180131" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -134,7 +145,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PRU03E04Temps_Ivan_Cabellos">
+    <configuration name="PRU03E04TempsTest_nom_llinatge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PRU03E04TempsTest_nom_llinatge" />
+      <module name="Tiempo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PRU03E04Temps_Ivan_Cabellos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PRU03E04Temps_Ivan_Cabellos" />
       <module name="Tiempo" />
@@ -142,9 +160,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.PRU03E04Temps_Ivan_Cabellos" />
+      <item itemvalue="Application.PRU03E04TempsTest_nom_llinatge" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.PRU03E04Temps_Ivan_Cabellos" />
+        <item itemvalue="Application.PRU03E04TempsTest_nom_llinatge" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544801558266</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Posible fase final de la clase tiempo">
+      <created>1544802322412</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544802322412</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Posible fase final de la clase tiempo">
+      <created>1544802354591</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544802354591</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -185,7 +222,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
@@ -193,7 +230,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22072679" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32974428" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -214,13 +251,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer commit desde el IDE clase tiempo" />
     <MESSAGE value="Segundo commit, ya hecho los metodos incluido suma, falta resta y el toString" />
-    <option name="LAST_COMMIT_MESSAGE" value="Segundo commit, ya hecho los metodos incluido suma, falta resta y el toString" />
+    <MESSAGE value="Posible fase final de la clase tiempo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Posible fase final de la clase tiempo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/PRU03E04Temps_Ivan_Cabellos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="106" column="54" selection-start-line="106" selection-start-column="54" selection-end-line="106" selection-end-column="54" />
+        <state relative-caret-position="229">
+          <caret line="92" column="14" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
           <folding>
             <element signature="e#417#418#0" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
@@ -231,6 +269,13 @@
             <element signature="e#890#891#0" expanded="true" />
             <element signature="e#921#922#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PRU03E04TempsTest_nom_llinatge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
