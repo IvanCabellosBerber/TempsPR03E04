@@ -19,31 +19,60 @@ public class PRU03E04Temps_Ivan_Cabellos {
         return hora;
     }
 
-    public void setHora(int hora) throws Exception {
-        if (hora < 24){
-            this.hora = hora;
-        } else throw new Exception("No hay mas de 24h");
+    public void setHora(int hora){
+        this.hora = hora;
     }
 
     public int getMinutos() {
         return minutos;
     }
 
-    public void setMinutos(int minutos) {
-        this.minutos = minutos;
+    public void setMinutos(int minutos) throws Exception {
+        if (minutos < 60){
+            this.minutos = minutos;
+        } else throw new Exception("No hay mas de 59 minutos");
     }
 
     public int getSegundos() {
         return segundos;
     }
 
-    public void setSegundos(int segundos) {
-        this.segundos = segundos;
+    public void setSegundos(int segundos) throws Exception {
+        if (segundos < 24){
+            this.segundos = segundos;
+        } else throw new Exception("No hay mas de 59 segundos");
     }
 
+    public static PRU03E04Temps_Ivan_Cabellos sumaTiempo (PRU03E04Temps_Ivan_Cabellos hora1, PRU03E04Temps_Ivan_Cabellos hora2) throws Exception {
+
+        int segundosHora1 = sumaSegundos(hora1);
+        int segundosHora2 = sumaSegundos(hora2);
+
+        int sumaTiempoTotal = segundosHora1 + segundosHora2;
+
+        int hora = sumaTiempoTotal / 3600;
+        int minutos = (sumaTiempoTotal - (hora * 3600)) / 60;
+        int segundos = sumaTiempoTotal - ((hora * 3600) + (minutos * 60));
+
+        return new PRU03E04Temps_Ivan_Cabellos(hora, minutos, segundos);
+    }
+
+    public static int sumaSegundos(PRU03E04Temps_Ivan_Cabellos tiempo){
+        int horasSegundos = tiempo.getHora() * 3600;
+        int minutosSegundos = tiempo.getMinutos() * 60;
+        int segundos = tiempo.getSegundos();
+
+        return horasSegundos + minutosSegundos + segundos;
+    }
+
+
     public static void main(String[] args) throws Exception {
-        PRU03E04Temps_Ivan_Cabellos pru03E04Temps_ivan_cabellos = new PRU03E04Temps_Ivan_Cabellos(63, 30, 20);
-        
+
+        PRU03E04Temps_Ivan_Cabellos tiempo1 = new PRU03E04Temps_Ivan_Cabellos(1, 30, 0);
+        PRU03E04Temps_Ivan_Cabellos tiempo2 = new PRU03E04Temps_Ivan_Cabellos(1, 30, 0);
+        PRU03E04Temps_Ivan_Cabellos tiempoSumado1y2;
+        tiempoSumado1y2 = sumaTiempo(tiempo1, tiempo2);
+
     }
 
 }
