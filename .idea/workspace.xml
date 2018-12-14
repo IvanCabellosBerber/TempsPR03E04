@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24610fbd-347d-4e05-ab21-d039069cc51a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tiempo/PRU03E04Temps_Ivan_Cabellos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tiempo/PRU03E04Temps_Ivan_Cabellos.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PRU03E04Temps_Ivan_Cabellos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PRU03E04Temps_Ivan_Cabellos.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,14 +34,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
-          <entry key="java" value="1198" />
-          <entry key="txt" value="39" />
+          <entry key="java" value="1588" />
+          <entry key="txt" value="126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1198" />
-          <entry key="PLAIN_TEXT" value="63" />
+          <entry key="JAVA" value="1588" />
+          <entry key="PLAIN_TEXT" value="150" />
         </counts>
       </usages-collector>
     </session>
@@ -50,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PRU03E04Temps_Ivan_Cabellos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
+            <state relative-caret-position="292">
+              <caret line="106" column="54" selection-start-line="106" selection-start-column="54" selection-end-line="106" selection-end-column="54" />
               <folding>
                 <element signature="e#417#418#0" expanded="true" />
                 <element signature="e#444#445#0" expanded="true" />
@@ -119,7 +120,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544801388442" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544802228193" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544799314992</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Segundo commit, ya hecho los metodos incluido suma, falta resta y el toString">
+      <created>1544801558266</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544801558266</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -186,7 +194,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32974428" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -205,25 +213,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer commit desde el IDE clase tiempo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer commit desde el IDE clase tiempo" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/PRU03E04Temps_Ivan_Cabellos.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Segundo commit, ya hecho los metodos incluido suma, falta resta y el toString" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segundo commit, ya hecho los metodos incluido suma, falta resta y el toString" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/PRU03E04Temps_Ivan_Cabellos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
+        <state relative-caret-position="292">
+          <caret line="106" column="54" selection-start-line="106" selection-start-column="54" selection-end-line="106" selection-end-column="54" />
           <folding>
             <element signature="e#417#418#0" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />

@@ -57,6 +57,22 @@ public class PRU03E04Temps_Ivan_Cabellos {
         return new PRU03E04Temps_Ivan_Cabellos(hora, minutos, segundos);
     }
 
+    public static PRU03E04Temps_Ivan_Cabellos restaTiempo (PRU03E04Temps_Ivan_Cabellos hora1, PRU03E04Temps_Ivan_Cabellos hora2) throws Exception {
+
+        int segundosHora1 = sumaSegundos(hora1);
+        int segundosHora2 = sumaSegundos(hora2);
+
+        int restaTiempoTotal = segundosHora1 - segundosHora2;
+
+        if (restaTiempoTotal < 0) throw new Exception("Estas intentado restar una hora más grande que la otra, volverías atrás en el tiempo");
+
+        int hora = restaTiempoTotal / 3600;
+        int minutos = (restaTiempoTotal - (hora * 3600)) / 60;
+        int segundos = restaTiempoTotal - ((hora * 3600) + (minutos * 60));
+
+        return new PRU03E04Temps_Ivan_Cabellos(hora, minutos, segundos);
+    }
+
     public static int sumaSegundos(PRU03E04Temps_Ivan_Cabellos tiempo){
         int horasSegundos = tiempo.getHora() * 3600;
         int minutosSegundos = tiempo.getMinutos() * 60;
@@ -65,6 +81,13 @@ public class PRU03E04Temps_Ivan_Cabellos {
         return horasSegundos + minutosSegundos + segundos;
     }
 
+    @Override
+    public String toString() {
+        return "El resultado sería: " +
+                "hora = " + getHora() +
+                ", minutos = " + getMinutos() +
+                ", segundos = " + getSegundos();
+    }
 
     public static void main(String[] args) throws Exception {
 
@@ -72,6 +95,8 @@ public class PRU03E04Temps_Ivan_Cabellos {
         PRU03E04Temps_Ivan_Cabellos tiempo2 = new PRU03E04Temps_Ivan_Cabellos(1, 30, 0);
         PRU03E04Temps_Ivan_Cabellos tiempoSumado1y2;
         tiempoSumado1y2 = sumaTiempo(tiempo1, tiempo2);
+
+        System.out.println(tiempoSumado1y2.toString());
 
     }
 
