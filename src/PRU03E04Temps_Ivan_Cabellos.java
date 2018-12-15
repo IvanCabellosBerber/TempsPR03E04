@@ -43,9 +43,9 @@ public class PRU03E04Temps_Ivan_Cabellos {
         } else throw new Exception("No hay mas de 59 segundos");
     }
 
-    public PRU03E04Temps_Ivan_Cabellos sumaTiempo (PRU03E04Temps_Ivan_Cabellos hora1, PRU03E04Temps_Ivan_Cabellos hora2) throws Exception {
+    public PRU03E04Temps_Ivan_Cabellos sumaTiempo (PRU03E04Temps_Ivan_Cabellos hora2) throws Exception {
 
-        int segundosHora1 = sumaSegundos(hora1);
+        int segundosHora1 = getSegundos() + (getMinutos() * 60) + (getHora() * 3600);
         int segundosHora2 = sumaSegundos(hora2);
 
         int sumaTiempoTotal = segundosHora1 + segundosHora2;
@@ -57,9 +57,9 @@ public class PRU03E04Temps_Ivan_Cabellos {
         return new PRU03E04Temps_Ivan_Cabellos(hora, minutos, segundos);
     }
 
-    public static PRU03E04Temps_Ivan_Cabellos restaTiempo (PRU03E04Temps_Ivan_Cabellos hora1, PRU03E04Temps_Ivan_Cabellos hora2) throws Exception {
+    public PRU03E04Temps_Ivan_Cabellos restaTiempo (PRU03E04Temps_Ivan_Cabellos hora2) throws Exception {
 
-        int segundosHora1 = sumaSegundos(hora1);
+        int segundosHora1 = getSegundos() + (getMinutos() * 60) + (getHora() * 3600);
         int segundosHora2 = sumaSegundos(hora2);
 
         int restaTiempoTotal = segundosHora1 - segundosHora2;
@@ -86,22 +86,6 @@ public class PRU03E04Temps_Ivan_Cabellos {
         return getHora() + "h " +
                getMinutos() + "m " +
                getSegundos() + "s";
-    }
-
-    public static void main(String[] args) throws Exception {
-
-        //TODO
-
-        PRU03E04Temps_Ivan_Cabellos tiempo1 = new PRU03E04Temps_Ivan_Cabellos(1, 20, 30);
-        PRU03E04Temps_Ivan_Cabellos tiempo2 = new PRU03E04Temps_Ivan_Cabellos(2, 40, 20);
-
-        System.out.println(tiempo1.toString() + " \n" + tiempo2);
-
-        PRU03E04Temps_Ivan_Cabellos tiempoSumado;
-
-        //tiempoSumado = sumaTiempo(tiempo1, tiempo2);
-
-        //System.out.println(tiempoSumado);
     }
 
 }
